@@ -14,7 +14,7 @@ interface LeadCaptureFormProps {
   onSuccess?: () => void;
 }
 
-export function LeadCaptureForm({
+export default function LeadCaptureForm({
   source,
   sourceDetail,
   title = 'AIの最新情報をお届けします',
