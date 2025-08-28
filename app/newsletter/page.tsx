@@ -128,7 +128,7 @@ export default function NewsletterPage() {
                 
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Clock className="w-4 h-4 text-orange-600" />
+                    <span className="text-sm">⏰</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">
@@ -227,19 +227,19 @@ export default function NewsletterPage() {
                 
                 <div className="space-y-2 text-xs text-gray-600">
                   <div className="flex items-center justify-center">
-                    <CheckCircle2 className="w-3 h-3 mr-1 text-green-500" />
+                    <span className="mr-1">✅</span>
                     毎週金曜日 朝8時配信
                   </div>
                   <div className="flex items-center justify-center">
-                    <CheckCircle2 className="w-3 h-3 mr-1 text-green-500" />
+                    <span className="mr-1">✅</span>
                     読了時間 約5分
                   </div>
                   <div className="flex items-center justify-center">
-                    <CheckCircle2 className="w-3 h-3 mr-1 text-green-500" />
+                    <span className="mr-1">✅</span>
                     実践的なAI活用ヒント
                   </div>
                   <div className="flex items-center justify-center">
-                    <CheckCircle2 className="w-3 h-3 mr-1 text-green-500" />
+                    <span className="mr-1">✅</span>
                     業界限定の成功事例
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export default function NewsletterPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="w-6 h-6 text-red-600" />
+                <span className="text-2xl">📈</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">トップトレンド</h3>
               <p className="text-sm text-gray-600">
@@ -267,7 +267,7 @@ export default function NewsletterPage() {
             
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-6 h-6 text-blue-600" />
+                <span className="text-2xl">👥</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">実装のヒント</h3>
               <p className="text-sm text-gray-600">
@@ -277,7 +277,7 @@ export default function NewsletterPage() {
             
             <div className="text-center">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle2 className="w-6 h-6 text-green-600" />
+                <span className="text-2xl">✅</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">成功事例</h3>
               <p className="text-sm text-gray-600">
@@ -287,7 +287,7 @@ export default function NewsletterPage() {
             
             <div className="text-center">
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-6 h-6 text-purple-600" />
+                <span className="text-2xl">⏰</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">イベント情報</h3>
               <p className="text-sm text-gray-600">
