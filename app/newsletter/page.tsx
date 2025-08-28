@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import LeadCaptureForm from '@/components/lead-capture-form'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Mail, TrendingUp, Users, Clock, CheckCircle2 } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'AI Trends Newsletter | Weekly Industry Insights | AI Media Automation',
@@ -21,7 +20,7 @@ export default function NewsletterPage() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full mb-6">
-            <Mail className="w-10 h-10 text-blue-600" />
+            <span className="text-4xl">📧</span>
           </div>
           
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
@@ -35,15 +34,15 @@ export default function NewsletterPage() {
 
           <div className="flex items-center justify-center space-x-8 text-sm text-gray-600 mb-8">
             <div className="flex items-center">
-              <Clock className="w-5 h-5 mr-2 text-blue-600" />
+              <span className="mr-2">⏰</span>
               毎週金曜配信
             </div>
             <div className="flex items-center">
-              <Users className="w-5 h-5 mr-2 text-green-600" />
+              <span className="mr-2">👥</span>
               5,000+ 読者
             </div>
             <div className="flex items-center">
-              <TrendingUp className="w-5 h-5 mr-2 text-purple-600" />
+              <span className="mr-2">📈</span>
               実践的コンテンツ
             </div>
           </div>
@@ -77,14 +76,14 @@ export default function NewsletterPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <CheckCircle2 className="w-6 h-6 mr-3 text-green-500" />
+                  <span className="mr-3">✅</span>
                   ニュースレターで得られる価値
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <TrendingUp className="w-4 h-4 text-blue-600" />
+                    <span className="text-sm">📈</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">
@@ -99,7 +98,7 @@ export default function NewsletterPage() {
                 
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Users className="w-4 h-4 text-green-600" />
+                    <span className="text-sm">👥</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">
@@ -114,7 +113,7 @@ export default function NewsletterPage() {
                 
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Mail className="w-4 h-4 text-purple-600" />
+                    <span className="text-sm">📧</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">
